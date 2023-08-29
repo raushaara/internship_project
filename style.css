@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 40px;
+    padding: 40px;
+}
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 45px;
+}
+
+nav ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 24px;
+}
+/* Banner */
+header {
+    background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Content Sections */
+section {
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 1000px;
+    height: auto;
+    color: black;
+    padding: 50px;
+}
+img{
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 1000px;
+}
+section h1{
+    text-align: center;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
